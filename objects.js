@@ -31,5 +31,5 @@ let mercyEyaife = {
 console.log(mercyEyaife)
 
 console.log(Object.keys(mercyEyaife))
-console.log(Object.values(mercyEyaife(profession)))
+console.log(Object.values(mercyEyaife))
 console.log(Object.entries(mercyEyaife))

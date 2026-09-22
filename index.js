@@ -50,3 +50,4 @@ console.log(gender);
 
 let fruits = ['Apple', 'Banana', 'Orange', 1, 2, 3, true];
 console.log(fruits);
+
