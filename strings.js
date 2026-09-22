@@ -25,3 +25,19 @@ console.log(extractExample.slice(-3));
 console.log(extractExample.substring(0, 3));
 console.log(extractExample.substring(3));
 console.log(extractExample.substring(-3, 0));
+
+const stringText = "Mercy is amazing, Mercy is beautiful, Mercy is intelligent"
+console.log(stringText.replace("Mercy", "she"));
+console.log(stringText.replaceAll("Mercy", "she"));
+
+let splittedText = stringText.split(", ");
+console.log(splittedText[1].replaceAll("Mercy", "she"));
+
+let palindrome = "nun"
+let reversed = palindrome.split("").reverse().join("");
+console.log(reversed);
+
+function wordChecker(word){
+return word === word.split("").reverse().join("") ? true : false
+}
+console.log(wordChecker("tar"));
