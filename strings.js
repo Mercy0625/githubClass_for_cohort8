@@ -17,3 +17,11 @@ console.log(trimExamples.startsWith("Mercy"))
 console.log(trimExamples.endsWith("Mercy"))
 console.log(trimExamples.startsWith("Eyaife"))
 console.log(trimExamples.endsWith("Eyaife"))
+
+const extractExample = "MercyEyaife"
+console.log(extractExample.slice(0, 3));
+console.log(extractExample.slice(3));
+console.log(extractExample.slice(-3));
+console.log(extractExample.substring(0, 3));
+console.log(extractExample.substring(3));
+console.log(extractExample.substring(-3, 0));
